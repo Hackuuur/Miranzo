@@ -11,18 +11,26 @@
     "deploy": "next build && next export && npx thirdweb@latest upload out"
   },
   "dependencies": {
+    "@chakra-ui/icons": "^2.1.1",
+    "@chakra-ui/react": "^2.8.1",
+    "@chakra-ui/theme-tools": "^2.1.1",
     "@thirdweb-dev/react": "^3",
     "@thirdweb-dev/sdk": "^3",
     "ethers": "^5",
+    "framer-motion": "^10.16.4",
     "next": "^13",
     "react": "^18.2",
-    "react-dom": "^18.2"
+    "react-dom": "^18.2",
+    "react-hook-form": "^7.46.2",
+    "react-icons": "^4.11.0"
   },
   "devDependencies": {
+    "@chakra-ui/cli": "^2.4.1",
     "@types/node": "^18.11.11",
     "@types/react": "^18",
     "eslint": "^8.29.0",
     "eslint-config-next": "^13",
+    "tailwindcss": "^3.3.3",
     "typescript": "^4.9.4"
   }
 }
